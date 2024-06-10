@@ -1713,20 +1713,23 @@ button {
 .nav-foot__cont ul li.ico-record {
   background: url("../images/ico_record.svg") no-repeat center 0 / 24px;
 }
-.nav-foot__cont ul li.ico-record.active {
+.nav-foot__cont ul li.ico-record.active a {
   background: url("../images/ico_record_active.svg") no-repeat center 0 / 24px;
+  color: var(--purple4c);
 }
 .nav-foot__cont ul li.ico-referoom {
   background: url("../images/ico_referoom.svg") no-repeat center 0 / 24px;
 }
-.nav-foot__cont ul li.ico-referoom.active {
+.nav-foot__cont ul li.ico-referoom.active a {
   background: url("../images/ico_referoom_active.svg") no-repeat center 0 / 24px;
+  color: var(--purple4c);
 }
 .nav-foot__cont ul li.ico-monitor {
   background: url("../images/ico_monitor.svg") no-repeat center 0 / 24px;
 }
-.nav-foot__cont ul li.ico-monitor.active {
+.nav-foot__cont ul li.ico-monitor.active a {
   background: url("../images/ico_monitor_active.svg") no-repeat center 0 / 24px;
+  color: var(--purple4c);
 }
 
 .nav-foot__cont ul li a {
