@@ -50,17 +50,20 @@
           <a class="link" href="#none" onclick="alert('준비중입니다')">알림 추가</a>
         </div>
         <ul class="list-type8 px16 pt10">
-          <li class="bg-ef radius-10">
+          <li class="bg-ef radius-10 btn-bell active">
             <div class="text-type4 purple pb6">멀티비타민</div>
-            <img src="images/ico_bell.svg" alt="">
+            <!-- <img src="images/ico_bell.svg" alt=""> -->
+            <div class="icon"></div>
           </li>
-          <li class="bg-ef radius-10">
+          <li class="bg-ef radius-10 btn-bell">
             <div class="text-type4 purple pb6">마그네슘</div>
-            <img src="images/ico_bell_off.svg" alt="">
+            <!-- <img src="images/ico_bell_off.svg" alt=""> -->
+            <div class="icon"></div>
           </li>
-          <li class="bg-ef radius-10">
+          <li class="bg-ef radius-10 btn-bell active">
             <div class="text-type4 purple pb6">처방약</div>
-            <img src="images/ico_bell.svg" alt="">
+            <!-- <img src="images/ico_bell.svg" alt=""> -->
+            <div class="icon"></div>
           </li>
         </ul>
         <i class="border-7 mt23"></i>
@@ -87,7 +90,12 @@
             </ul>
         </nav>
       </div>
-    
+    <script>
+      $('.btn-bell').click(function() {
+        // $('.btn-bell').removeClass('active')
+        $(this).toggleClass('active')
+      })
+    </script>
     </main>
   </body>
   <script src="js/button.js"></script>
