@@ -41,13 +41,13 @@
           <h2 class="h2 pt12">질명 DB</h2>
         </div>
         <ul class="list-type8 grid3 px16 pt10">
-          <li class="radius-10 btn-area active">
+          <li class="radius-10 btn-area" onclick="alert('준비중입니다')">
             <div class="text-type4 pb6 text-center">병명으로<br>검색하기</div>
           </li>
-          <li class="radius-10 btn-area">
+          <li class="radius-10 btn-area" onclick="alert('준비중입니다')">
             <div class="text-type4 pb6 text-center">증상 부위로<br>검색하기</div>
           </li>
-          <li class="radius-10 btn-area">
+          <li class="radius-10 btn-area" onclick="alert('준비중입니다')">
             <div class="text-type4 pb6 text-center">진료과로<br>검색하기</div>
           </li>
           
@@ -67,13 +67,6 @@
             </ul>
         </nav>
       </div>
-    <script>
-      $('.btn-area').click(function () {
-        $('.btn-area').removeClass('active');
-        $(this).toggleClass('active');
-        alert('준비중입니다');
-      })
-    </script>
     </main>
   </body>
   <script src="js/button.js"></script>
